@@ -24,7 +24,7 @@
         <button class="btn btn-outline-success">
             Hover Effect
         </button>
-        <!-- <div class="container mt-5">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-md-4">
                     <img src="images/abc.jpeg" class="img-thumbnail" width="300px">
@@ -41,7 +41,7 @@
                     <img src="images/abc.jpeg" width="300px">
                 </div>
             </div>
-        </div> -->
+        </div>
     </main>
     <footer>
 
