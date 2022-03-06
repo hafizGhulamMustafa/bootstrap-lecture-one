@@ -15,21 +15,15 @@
 
   <body>
     <header>
-      <ul class="nav bg-light">
+      <ul class="nav bg-dark p-2">
         <li class="nav-item">
           <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.php">About</a>
+          <a class="nav-link" href="login.php">Login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.php">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="blog.php">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="support.php">Support</a>
+          <a class="nav-link" href="register.php">Register</a>
         </li>
       </ul>
     </header>
