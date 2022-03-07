@@ -1,5 +1,7 @@
 
-
+<?php 
+ include 'DatabaseHelper.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,12 +33,7 @@
     <main>
         <div>
           <?php
-          $sarvername = "localhost";
-          $username = "root";
-          $password = "";
-          $dbname = "result";
-
-          $conn = mysqli_connect($sarvername, $username, $password, $dbname);
+         
 
           $sql = "select * from results";
 
@@ -64,12 +61,11 @@
                     <td><?php echo $row['lastName'];?></td>
                     <td><?php echo $row['email'];?></td>
                     <td>
-                        <button class="btn btn-primary m-1" ><a href="">Edit</a></button>
-                        <button class="btn btn-primary m-1"><a href="delete.php">Delete</a></button>
-                    </td>
+                        <button class="btn btn-primary m-1" ><a href="" class="link link-dark">Edit</a></button>
+                        <button class="btn btn-primary m-1"><a href='delete.php?id=<?php echo $row['id']; ?>' class="link link-dark">Delete</a></button>
+                  </td>
                   </tr>
-
-                  <?php }?>
+                  <?php }?> 
                 </tbody>
             </table>
             <?php } else {echo "No record found";} ?>
